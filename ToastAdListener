@@ -1,0 +1,40 @@
+package com.infinity.javaprograms_du;
+
+import android.content.Context;
+import android.widget.Toast;
+
+import com.google.android.gms.ads.AdListener;
+
+public class ToastAdListener extends AdListener {
+    private Context mContext;
+    private String mErrorReason;
+
+    public ToastAdListener(Context context){
+        this.mContext=context;
+    }
+
+    @Override
+    public void onAdLoaded() {
+
+    }
+
+    @Override
+    public void onAdOpened() {
+
+    }
+
+    @Override
+    public void onAdClosed() {
+
+    }
+
+    @Override
+    public void onAdLeftApplication() {
+
+    }
+
+    @Override
+    public void onAdFailedToLoad(int i){
+    }
+
+}
